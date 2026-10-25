@@ -1,0 +1,13 @@
+[package]
+name = "soul-api"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-web = "4.18.1"
+serde = { version = "1.0.229", features = ["serde_derive"] }
+tracing = "0.1.44"
+tracing-subscriber = { version = "0.3.23", features = [
+    "env-filter",
+    "local-time",
+] }
