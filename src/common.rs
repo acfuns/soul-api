@@ -1,6 +1,7 @@
 use tracing::level_filters::LevelFilter;
 use tracing_subscriber::{EnvFilter, fmt::time::LocalTime};
 
+/// 初始化日志 完成tracing门面的实现
 pub fn init_logger() {
     tracing_subscriber::fmt()
         .with_env_filter(
