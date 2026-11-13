@@ -1,5 +1,9 @@
 use actix_web::{
+<<<<<<< HEAD
     App, HttpResponse, HttpServer, Responder, get,
+=======
+    App, Error, HttpResponse, HttpServer, Responder, get, post,
+>>>>>>> cc6105f
     web::{self},
 };
 use soul_api::common;
